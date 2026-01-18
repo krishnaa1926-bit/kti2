@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kailash Timber Industries - Sustainability</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Kailash Timber Industries Logo">
+                <span>Kailash Timber Industries</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li>
+                    <a href="products.html">Products </a>
+                    
+
+
+                
+                </li>
+                <li><a href="sustainability.html">Sustainability</a></li>
+
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="cta-button">Request a Quote</button>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero sustainability-hero">
+            <div class="hero-content">
+                <h2>Sustainability at Kailash Timber</h2>
+                <p>We believe in responsible timber trading through ethical sourcing and zero-waste processing. Every teak log is fully utilized—planks, sawdust, and by-products—ensuring minimal waste and maximum value. By working with authorized suppliers and local processing, we support sustainable forestry and long-term environmental balance. Our commitment to sustainability goes beyond words—it's embedded in every log we process and every partnership we form.</p>
+            </div>
+        </section>
+         <section id="sustainable-practices">
+            <h2>Sustainable Practices</h2>
+            <div class="grid">
+                <div class="card">
+                    <div class="card-icon">🌿</div>
+                    <h3>1. Ethically Sourced Teak</h3>
+                    <p>We procure teak logs exclusively through authorized government channels, ensuring legality, traceability, and responsible forest management.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🔄</div>
+                    <h3>2. Complete Log Utilization</h3>
+                    <p>Every teak log is processed with a zero-waste mindset—planks, sawdust, off-cuts, and firewood are all put to productive use.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">♻️</div>
+                    <h3>3. Waste as a Resource</h3>
+                    <p>By-products such as sawdust and wood remnants are supplied to allied industries and local utilities, reducing landfill waste and supporting circular use.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">⏳</div>
+                    <h3>4. Durability Over Disposal</h3>
+                    <p>Teak's natural strength and longevity mean longer product life cycles, fewer replacements, and reduced environmental impact over time.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🏭</div>
+                    <h3>5. Local Processing, Lower Footprint</h3>
+                    <p>Converting logs into planks locally helps minimize transportation impact while generating employment and value within the community.</p>
+                </div>
+                <div class="card">
+                    <div class="card-icon">🤝</div>
+                    <h3>6. Tradition with Responsibility</h3>
+                    <p>Our old-school business ethics guide modern, responsible practices—proving that sustainability is not a trend, but a way of working.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="community-impact">
+            <h2>Community & Environmental Impact</h2>
+            <div class="grid">
+                <div class="card">
+                    <h3>Local Community Support</h3>
+                    <p>We actively support local communities through education, healthcare, and economic development programs.</p>
+                </div>
+                <div class="card">
+                    <h3>Wildlife Conservation</h3>
+                    <p>Our harvesting practices protect wildlife habitats and promote biodiversity in timber regions.</p>
+                </div>
+                <div class="card">
+                    <h3>Educational Initiatives</h3>
+                    <p>We partner with schools and universities to promote sustainable forestry education and awareness.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="sustainability.html">Sustainability</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="sustainability.html">Sustainability</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#">📘</a>
+                    <a href="#">🐦</a>
+                    <a href="#">📷</a>
+                    <a href="#">💼</a>
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2023 Kailash Timber Industries. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/sustainability.js"></script>
+
+    <!-- Feedback Modal -->
+    <div id="feedback-modal" class="feedback-modal">
+        <div class="feedback-content">
+            <button class="close-modal" onclick="closeFeedbackModal()">&times;</button>
+            <h3>Share Your Feedback</h3>
+            <div class="feedback-rating">
+                <span class="star-rating" onclick="rateFeedback(1)">★</span>
+                <span class="star-rating" onclick="rateFeedback(2)">★</span>
+                <span class="star-rating" onclick="rateFeedback(3)">★</span>
+                <span class="star-rating" onclick="rateFeedback(4)">★</span>
+                <span class="star-rating" onclick="rateFeedback(5)">★</span>
+            </div>
+            <form class="feedback-form" onsubmit="submitFeedback(event)">
+                <div class="form-group">
+                    <label for="feedback-name">Name (Optional)</label>
+                    <input type="text" id="feedback-name" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="feedback-email">Email (Optional)</label>
+                    <input type="email" id="feedback-email" placeholder="your.email@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="feedback-message">Your Feedback</label>
+                    <textarea id="feedback-message" placeholder="Tell us what you think about your website..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit Feedback</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Floating Buttons -->
+    <button class="feedback-button" onclick="openFeedbackModal()" aria-label="Share your feedback"></button>
+    <button class="whatsapp-button" onclick="redirectToWhatsApp()" aria-label="Contact us on WhatsApp"></button>
+</body>
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kailash Timber Industries - Products</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="products-page">
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Kailash Timber Industries Logo">
+                <span>Kailash Timber Industries</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="sustainability.html">Sustainability</a></li>
+                
+                
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button class="cta-button">Request a Quote</button>
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero products-hero">
+            <div class="hero-content">
+                <h2>Our Product Range</h2>
+                <p>Discover premium timber products crafted with excellence and sustainability</p>
+            </div>
+        </section>
+
+        <section id="timber" class="product-section active">
+            <div class="product-showcase">
+                <div class="product-details">
+                    <div class="product-grid">
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="Gemini_Generated_Image_6js7kz6js7kz6js7.png" alt="Teak Planks 1x6x8">
+                                <div class="product-overlay">
+                                    <button class="view-details">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3>Teak Planks - 1" × 6" × 8'</h3>
+                                <div class="product-specs">
+                                    <span>Standard Size</span>
+                                    <span>1" × 6" × 8'</span>
+                                    <span>Premium Grade</span>
+                                </div>
+                                <p>Perfect for furniture making, cabinetry, and interior paneling. Our most popular standard size.</p>
+                                <div class="quantity-input">
+                                    <label for="quantity-1x6x8">Quantity:</label>
+                                    <input type="number" id="quantity-1x6x8" min="1" value="1">
+                                </div>
+                                <button class="cta-button" onclick="enquireProduct(this)">Enquire Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-item">
+                            <div class="product-image">
+                                <img src="Gemini_Generated_Image_6js7kz6js7kz6js7.png" alt="Teak Planks 2x8x10">
+                                <div class="product-overlay">
+                                    <button class="view-details">View Details</button>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                                <h3>Teak Planks - 2" × 8" × 10'</h3>
+                                <div class="product-specs">
+                                    <span>Heavy Duty</span>
+                                    <span>2" × 8" × 10'</span>
+                                    <span>Premium Grade</span>
+                                </div>
+                                <p>Ideal for structural applications, heavy furniture, and large-scale projects requiring thicker timber.</p>
+                                <div class="quantity-input">
+                                    <label for="quantity-2x8x10">Quantity:</label>
+                                    <input type="number" id="quantity-2x8x10" min="1" value="1">
+                                </div>
+                                <button class="cta-button" onclick="enquireProduct(this)">Enquire Now</button>
+                            </div>
+                        </div>
+
+                        <div class="product-item custom-size-card">
+                            <div class="product-info">
+                                <h3>Custom Size Teak Planks</h3>
+                                <div class="product-specs">
+                                    <span>Custom Dimensions</span>
+                                    <span>Any Size Available</span>
+                                    <span>Made to Order</span>
+                                </div>
+                                <p>Need specific dimensions? We can cut and prepare teak planks to your exact specifications.</p>
+                                <form id="custom-size-form" onsubmit="submitCustomSizeForm(event)">
+                                    <div class="form-group">
+                                        <input type="text" id="custom-length" placeholder="Length (e.g., 10')" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" id="custom-width" placeholder="Width (e.g., 8")" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="text" id="custom-thickness" placeholder="Thickness (e.g., 2")" required>
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="number" id="custom-quantity" placeholder="Quantity" min="1" required>
+                                    </div>
+                                    <button type="submit" class="cta-button">Request Custom Quote</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-slideshow">
+            <div class="slideshow-container">
+                <div class="slideshow">
+                    <div class="slide-card">
+                        <img src="Gemini_Generated_Image_6js7kz6js7kz6js7.png" alt="Teak Planks">
+                    </div>
+                    <div class="slide-card">
+                        <img src="WhatsApp Image 2026-01-17 at 2.58.46 PM.jpeg" alt="Finished Products">
+                    </div>
+                    <div class="slide-card">
+                        <img src="WhatsApp Image 2026-01-17 at 2.58.47 PM (2).jpeg" alt="Quality Products">
+                    </div>
+                    <div class="slide-card">
+                        <img src="WhatsApp Image 2026-01-17 at 2.58.47 PM.jpeg" alt="Timber Storage">
+                    </div>
+                    <div class="slide-card">
+                        <img src="WhatsApp Image 2026-01-17 at 2.58.49 PM.jpeg" alt="Processing Facility">
+                    </div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="slide-card">
+                        <img src="Gemini_Generated_Image_6js7kz6js7kz6js7.png" alt="Teak Planks">
+                    </div>
+                    <div class="slide-card">
+                        <img src="WhatsApp Image 2026-01-17 at 2.58.46 PM.jpeg" alt="Finished Products">
+                    </div>
+                    <div class="slide-card">
+                        <img src="WhatsApp Image 2026-01-17 at 2.58.47 PM (2).jpeg" alt="Quality Products">
+                    </div>
+                    <div class="slide-card">
+                        <img src="WhatsApp Image 2026-01-17 at 2.58.47 PM.jpeg" alt="Timber Storage">
+                    </div>
+                    <div class="slide-card">
+                        <img src="WhatsApp Image 2026-01-17 at 2.58.49 PM.jpeg" alt="Processing Facility">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="sustainability.html">Sustainability</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    <li><a href="sustainability.html">Sustainability</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#">📘</a>
+                    <a href="#">🐦</a>
+                    <a href="#">📷</a>
+                    <a href="#">💼</a>
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2023 Kailash Timber Industries. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+    <!-- Floating Buttons -->
+    <button class="feedback-button" onclick="redirectToWhatsApp('Hi, I would like to share feedback about your website.')" aria-label="Share your feedback"></button>
+    <button class="whatsapp-button" onclick="redirectToWhatsApp()" aria-label="Contact us on WhatsApp"></button>
+</body>
+</html>

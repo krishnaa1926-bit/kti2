@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kailash Timber Industries - Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Kailash Timber Industries Logo">
+                <span>Kailash Timber Industries</span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li>
+                    <a href="products.html">Products </a>
+                    
+                </li>
+                <li><a href="sustainability.html">Sustainability</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            
+            <div class="menu-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero home-hero">
+            <div class="hero-content">
+                <div class="hero-left">
+                    <h1>Excellence in Timber Solutions</h1>
+                </div>
+                <div class="hero-divider"></div>
+                <div class="hero-right">
+                    <p>Transforming Nature Into Craftsmanship</p>
+                    <a href="contact.html" class="cta-button">Request a Quote</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about-preview">
+            <div class="about-preview">
+                <img src="kti1.jpeg" alt="Kailash Timber Industries Facility" style="width: 100%; max-width: 500px; height: 300px; object-fit: cover; border-radius: 15px; box-shadow: 0 8px 20px rgba(139, 90, 43, 0.2);">
+                <div class="text">
+                    <h2>About Us</h2>
+                    <p>Established in 1979 by Shivdas Patel, we are a trusted timber trading business with over 45 years of experience. Built on integrity, quality, and transparent practices, we focus on long-term relationships and consistent delivery. Combining deep industry knowledge with modern systems, we ensure reliable operations and dependable service. Our commitment to ethical business and professional standards continues to define who we are todayex.</p>
+                    <a href="about.html" class="cta-button">Our Team</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="facilities-gallery">
+            <h2>Our Facilities</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="unloading.jpeg" alt="Raw Log Yard" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
+                    <h3>Unloading</h3>
+                    <p>Unloading the raw log teak wood</p>
+                </div>
+                <div class="card">
+                    <img src="raw log.jpeg" alt="Bend Saw to Cut Raw Log" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
+                    <h3>Raw log yard</h3>
+                    <p>Storage area for raw log in the yard</p>
+                </div>
+                <div class="card">
+                    <img src="process.jpeg" alt="Main Storage for Finished Product" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
+                    <h3>processing</h3>
+                    <p>Precision cutting of raw logs using advanced bend saw technology</p>
+                </div>
+                <div class="card">
+                    <img src="WhatsApp Image 2026-01-17 at 2.58.46 PM.jpeg" alt="Finished Product" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
+                    <h3>Storage</h3>
+                    <p>Weather controlled storage for finished products</p>
+                </div>
+                <div class="card">
+                    <img src="WhatsApp Image 2026-01-17 at 2.58.47 PM (2).jpeg" alt="Quality Control Lab" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
+                    <h3>Finished products</h3>
+                    <p>Quality assured finished product is ready to dispatch</p>
+                </div>
+                <div class="card">
+                    <img src="loading.jpeg" alt="Administrative Office" style="width: 100%; height: 200px; object-fit: cover; border-radius: 10px;">
+                    <h3>Loading</h3>
+                    <p>Loading of finished product for dispatch</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="verticals">
+            <h2>What We Do</h2>
+            <div class="grid">
+                <div class="card">
+                    <img src="—Pngtree—brown firewood wood clipart_5862014.png" alt="Timber Icon">
+                    <h3>Timber Processing</h3>
+                    <p>State-of-the-art facilities for premium timber products</p>
+                    <a href="products.html">View Products</a>
+                </div>
+                <div class="card">
+                    <img src="—Pngtree—stump icon flat style_5153273.png" alt="Forestry Icon">
+                    <h3>Sustainable Forestry</h3>
+                    <p>Responsible sourcing and environmental stewardship</p>
+                    <a href="sustainability.html">Learn More</a>
+                </div>
+                <div class="card">
+                    <img src="wooden-box.png" alt="Logistics Icon">
+                    <h3>Expert Services</h3>
+                    <p>Consulting, custom solutions, and global logistics</p>
+                    <a href="sustainability.html">Our Sustainability</a>
+                </div>
+            </div>
+        </section>
+
+
+
+        
+
+        <section class="form-section">
+            <h2>Get In Touch</h2>
+            <form id="inquiry-form" onsubmit="submitForm(event)">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Name *</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone *</label>
+                        <input type="tel" id="phone" required>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">City *</label>
+                        <input type="text" id="city" required placeholder="Enter your city">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="product">Product of Interest *</label>
+                    <select id="product" required>
+                        <option value="">Select a product</option>
+                        <option value="timber">Timber</option>
+                        <option value="plywood">Plywood</option>
+                        <option value="veneer">Veneer</option>
+                        <option value="other">Other</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message *</label>
+                    <textarea id="message" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="cta-button">Send Inquiry</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="sustainability.html">Sustainability</a></li>
+                    
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Resources</h3>
+                <ul>
+                    
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-icons">
+                    <a href="#">📘</a>
+                    <a href="#">🐦</a>
+                    <a href="#">📷</a>
+                    <a href="#">💼</a>
+                </div>
+            </div>
+        </div>
+        <p>&copy; 2023 Kailash Timber Industries. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+    <!-- Feedback Modal -->
+    <div id="feedback-modal" class="feedback-modal">
+        <div class="feedback-content">
+            <button class="close-modal" onclick="closeFeedbackModal()">&times;</button>
+            <h3>Share Your Feedback</h3>
+            <div class="feedback-rating">
+                <span class="star-rating" onclick="rateFeedback(1)">★</span>
+                <span class="star-rating" onclick="rateFeedback(2)">★</span>
+                <span class="star-rating" onclick="rateFeedback(3)">★</span>
+                <span class="star-rating" onclick="rateFeedback(4)">★</span>
+                <span class="star-rating" onclick="rateFeedback(5)">★</span>
+            </div>
+            <form class="feedback-form" onsubmit="submitFeedback(event)">
+                <div class="form-group">
+                    <label for="feedback-name">Name (Optional)</label>
+                    <input type="text" id="feedback-name" placeholder="Your name">
+                </div>
+                <div class="form-group">
+                    <label for="feedback-email">Email (Optional)</label>
+                    <input type="email" id="feedback-email" placeholder="your.email@example.com">
+                </div>
+                <div class="form-group">
+                    <label for="feedback-message">Your Feedback</label>
+                    <textarea id="feedback-message" placeholder="Tell us what you think about our website..." required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Submit Feedback</button>
+            </form>
+        </div>
+    </div>
+
+    <!-- Floating Buttons -->
+    <button class="feedback-button" onclick="openFeedbackModal()" aria-label="Share your feedback"></button>
+    <button class="whatsapp-button" onclick="redirectToWhatsApp()" aria-label="Contact us on WhatsApp"></button>
+</body>
+</html>
